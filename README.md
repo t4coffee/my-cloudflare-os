@@ -247,3 +247,12 @@ Cloudflare OS has far too many open source dependencies to list here. But, we'd 
 * [CodeMirror](https://codemirror.net/) provides our code editor UI and operational transform implementation for synchronizing real-time edits.
 * [isomorphic-git](https://isomorphic-git.org/) is used to implement the backing storage for Gadget code and integration with external git servers.
 * [Vite](https://vite.dev/), which makes the development loop so pleasant.
+
+## About this fork
+
+This fork (`t4coffee/my-cloudflare-os`) tracks upstream `cloudflare/cloudflare-os` and carries only small local customizations (offline agent notes, pnpm version pin).
+
+* **Branch protection is enabled on `main`**: direct pushes are restricted and pull requests require review before merging.
+* **Signed commits are required.** Every commit landing on `main` must be cryptographically signed (GPG/SSH); GitHub verifies the signature and CI blocks unsigned ones. Local git is configured with `commit.gpgsign=true`.
+
+Sync cadence and repo-specific notes live in [.agents/knowledge/sync-cadence.md](.agents/knowledge/sync-cadence.md).
