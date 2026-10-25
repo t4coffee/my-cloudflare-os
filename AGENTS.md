@@ -4,6 +4,7 @@ The following files are commonly important to reference:
 
 * packages/workshop-shared/node_modules/capnweb/README.md: Explains how to use Cap'n Web RPC, which is used extensively for client-server communications.
 * packages/workshop-shared/src/api.ts: Defines the RPC API used between the frontend and backend.
+* .agents/knowledge/README.md: Offline agent notes on running this repo locally and on Cloudflare Wrangler, AI Gateway, and MCP server portals.
 
 The project structure is:
 

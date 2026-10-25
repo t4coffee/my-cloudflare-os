@@ -27,6 +27,9 @@ packages/workshop-backend/src/generated/browser-export-page.js
 # Local dev secrets (loaded by run-dev-server.ts)
 .dev.vars*
 
+# Fetched Cloudflare docs kept for offline agent reference (regenerate from the links in the notes).
+.agents/knowledge/sources/
+
 # Site-specific deployment configs.
 wrangler.prod.jsonc
 wrangler.staging.jsonc
@@ -45,3 +48,6 @@ wrangler.dev.jsonc
 .dev.vars.*
 **/.dev.vars
 **/.dev.vars.*
+
+# Google OAuth client secret - never commit
+google_client.json
